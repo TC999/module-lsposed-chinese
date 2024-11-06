@@ -2,10 +2,12 @@
 // @name         Lsposed 模块仓库汉化插件
 // @namespace    http://tampermonkey.net/
 // @version      1.5
-// @description  在 Lsposed 模块仓库中将页面中的英文词条替换为中文，并设置页面语言为中文，同时翻译页面标题，防止标题被动态重置回英文
-// @author       You
+// @description  Lsposed 模块仓库汉化插件
+// @author       TC999
 // @match        https://modules.lsposed.org/*
 // @grant        none
+// @license      GPL-3.0
+// @supportURL   https://github.com/TC999/module-lsposed-chinese/issues
 // ==/UserScript==
 
 (function() {
@@ -50,6 +52,8 @@
             "Description (Reason)": "描述（理由）",
                 "Describe it": "描述",
             "Submit": "提交",
+        // 错误页
+            "try somewhere else": "未找到",
         // 你可以继续添加其他词条及其对应的翻译
     };
 
@@ -57,6 +61,7 @@
     const titleTranslationMap = {
         "Browse Modules - Xposed Module Repository": "浏览 - Xposed 模块仓库",
         "Submission - Xposed Module Repository": "提交 - Xposed 模块仓库",
+        "Not Found - Xposed Module Repository": "未找到 - Xposed 模块仓库",
         "Xposed Module Repository": "Xposed 模块仓库",
         // 其他标题词条可继续添加
     };
