@@ -7,6 +7,7 @@
 // @match        https://modules.lsposed.org/*
 // @grant        none
 // @license      GPL-3.0
+// @icon         https://modules.lsposed.org/icons/icon-512x512.png
 // @supportURL   https://github.com/TC999/module-lsposed-chinese/issues
 // ==/UserScript==
 
